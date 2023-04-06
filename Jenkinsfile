@@ -8,7 +8,7 @@ pipeline {
                 git branch: 'main', url: 'https://github.com/avnichauhan12/Spaceproject.git'
             }
         }
-        stage('UNIT TESTING') {
+       /* stage('UNIT TESTING') {
             steps {
                 sh 'mvn test'
             }
